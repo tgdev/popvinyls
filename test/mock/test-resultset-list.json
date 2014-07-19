@@ -1,0 +1,65 @@
+[
+  {
+    "Number":"1",
+    "Name":"Batmobile",
+    "Series":"Rides",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"1",
+    "Name":"Purple Haze",
+    "Series":"Rocks",
+    "Type":"Music",
+    "Purchased":false
+  },
+  {
+    "Number":"2",
+    "Name":"DeLoreon Time machine",
+    "Series":"Rides",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"3",
+    "Name":"Tonys Convertable",
+    "Series":"Rides",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"4",
+    "Name":"Gizmo",
+    "Series":"Gremlins",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"4",
+    "Name":"Etco-1",
+    "Series":"Rides",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"10",
+    "Name":"Buddy the Elf",
+    "Series":"Holidays",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"17",
+    "Name":"He-man",
+    "Series":"Masters of the universe",
+    "Type":"TV",
+    "Purchased":false
+  },
+  {
+    "Number":"17",
+    "Name":"Edward Scissorhands",
+    "Series":"Edward Scissorhands",
+    "Type":"Movie",
+    "Purchased":true
+  }
+]

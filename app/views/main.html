@@ -1,0 +1,13 @@
+<h1>Pop Vinly Collection</h1>
+<hr />
+<p>Showing: <span data-ng-bind="filterType"></span> (<span data-ng-bind="count"></span>)</p>
+<!-- Filters go here -->
+
+<ul class="pvc-list" data-ng-repeat="pvc in popVinyls | orderBy: 'number'">
+  <li>
+    <a href="/images/fullsize/{{pvc.name | HyphenateString lowercase}}.jpg">
+      <img data-ng-src="/images/thumbs/{{pvc.name | HyphenateString lowercase}}.jpg" alt="{{pvc.name}}" data-ng-class="purchased: purchased" />
+      <p data-ng-bind="pvc.name"></p>
+    </a>
+  </li>
+</ul>

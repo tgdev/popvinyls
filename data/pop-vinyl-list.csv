@@ -1,0 +1,81 @@
+,,,,
+Number,Name,Series,Type,Purchased
+1,Batmobile,Rides,Movie,FALSE
+1,Purple Haze,Rocks,Music,FALSE
+2,DeLoreon Time machine,Rides,Movie,FALSE
+3,Tonys Convertable,Rides,Movie,FALSE
+4,Gizmo,Gremlins,Movie,FALSE
+4,Etco-1,Rides,Movie,FALSE
+10,Buddy Elf,Holidays,Movie,FALSE
+17,He-man,Masters of the universe,TV,FALSE
+17,Edward Scissorhands,Edward Scissorhands,Movie,TRUE
+18,Rocky Balboa,Rocky,Movie,FALSE
+18,Notorious BIG,Rocks,Music,FALSE
+19,Skeletor,Masters of the universe,TV,FALSE
+19,Apollo Creed,Rocky,Movie,FALSE
+19,TuPac,Rocks,Music,FALSE
+20,Clubber Lang,Rocky,Movie,FALSE
+21,Ivan Drago,Rocky,Movie,FALSE
+22,Robocop,Robocop,Movie,FALSE
+22,MJ Billie Jean,Rocks,Music,FALSE
+23,MJ Beat It,Rocks,Music,FALSE
+27,John Lennon,Rocks,Music,TRUE
+28,Paul McCartney,Rocks,Music,TRUE
+29,George Harrison,Rocks,Music,TRUE
+30,Alien,Alien,Movie,FALSE
+30,Ringo Starr,Rocks,Music,TRUE
+32,Ace Ventura,Ace Ventura Pet Detective,Movie,FALSE
+35,Thor,Marvel,Movie,FALSE
+52,Jasmine,Disney,Movie,FALSE
+53,Jafar,Disney,Movie,FALSE
+53,Ash,Army of Darkness,Movie,FALSE
+54,Genie,Disney,Movie,FALSE
+59,Carl,Disney,Movie,TRUE
+60,Russell,Disney,Movie,TRUE
+60,Donatello,TMNT,TV,FALSE
+61,Raphael,TMNT,TV,FALSE
+61,Marty McFly,Back to the Future,Movie,TRUE
+61,Vincent Vega,Pulp Fiction,Movie,FALSE
+62,Michaelangelo,TMNT,TV,FALSE
+62,Dr. Emmet Brown,Back to the Future,Movie,TRUE
+62,Jules,Pulp Fiction,Movie,TRUE
+63,Leonardo,TMNT,TV,FALSE
+63,Mia Wallace,Pulp Fiction,Movie,TRUE
+64,Splinter,TMNT,TV,FALSE
+64,Jimmie,Pulp Fiction,Movie,TRUE
+65,Shredder,TMNT,TV,FALSE
+68,Beatrix Kiddo,Kill Bill,Movie,FALSE
+69,Bill,Kill Bill,Movie,FALSE
+70,O-Ren Ishi,Kill Bill,Movie,FALSE
+71,GoGo Yubari,Kill Bill,Movie,FALSE
+72,Crazy 88,Kill Bill,Movie,FALSE
+76,Sloth,The Goonies,Movie,FALSE
+77,Mikey,The Goonies,Movie,FALSE
+78,Mouth,The Goonies,Movie,FALSE
+79,Chunk,The Goonies,Movie,FALSE
+80,Data,The Goonies,Movie,FALSE
+102,Lion-O,Thundercats,TV,FALSE
+104,Dr. Peter Venkman,Ghostbusters,Movie,TRUE
+105,Dr. Raymond Stantz,Ghostbusters,Movie,TRUE
+106,Dr. Egon Spengler,Ghostbusters,Movie,TRUE
+108,Slimer,Ghostbusters,Movie,TRUE
+109,Stay Puft Marshmellow Man,Ghostbusters,Movie,TRUE
+113,Michael Bluth,Arrested Development,TV,FALSE
+114,Gob Bluth,Arrested Development,TV,TRUE
+115,Buster Bluth,Arrested Development,TV,TRUE
+116,Tobias Funke,Arrested Development,TV,TRUE
+117,George-Michael Bluth,Arrested Development,TV,TRUE
+119,George Bluth Snr,Arrested Development,TV,TRUE
+121,Buffy,Buffy the vampire slayer,TV,FALSE
+122,Willow,Buffy the vampire slayer,TV,FALSE
+123,Angel,Buffy the vampire slayer,TV,FALSE
+125,Vampire Spike,Buffy the vampire slayer,TV,FALSE
+134,Sharknado,Sharknado,Movie,FALSE
+140,April O'Neil,TMNT,TV,FALSE
+141,Foot Soldier,TMNT,TV,FALSE
+142,Bebop,TMNT,TV,FALSE
+143,Rocksteady,TMNT,TV,FALSE
+160,Walter White,Breaking Bad,TV,FALSE
+161,Jesse Pinkman,Breaking Bad,TV,FALSE
+162,Heisenberg,Breaking Bad,TV,FALSE
+163,Saul Goodman,Breaking Bad,TV,FALSE

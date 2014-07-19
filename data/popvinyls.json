@@ -1,12 +1,548 @@
-{
-	"number": 0,
-	"name": "",
-	"type": "",
-	"purchased": false
-},
-{
-	"number": 0,
-	"name": "",
-	"type": "",
-	"purchased": false
-}
+[
+  {
+    "Number":"1",
+    "Name":"Batmobile",
+    "Series":"Rides",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"1",
+    "Name":"Purple Haze",
+    "Series":"Rocks",
+    "Type":"Music",
+    "Purchased":false
+  },
+  {
+    "Number":"2",
+    "Name":"DeLoreon Time machine",
+    "Series":"Rides",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"3",
+    "Name":"Tonys Convertable",
+    "Series":"Rides",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"4",
+    "Name":"Gizmo",
+    "Series":"Gremlins",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"4",
+    "Name":"Etco-1",
+    "Series":"Rides",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"10",
+    "Name":"Buddy the Elf",
+    "Series":"Holidays",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"17",
+    "Name":"He-man",
+    "Series":"Masters of the universe",
+    "Type":"TV",
+    "Purchased":false
+  },
+  {
+    "Number":"17",
+    "Name":"Edward Scissorhands",
+    "Series":"Edward Scissorhands",
+    "Type":"Movie",
+    "Purchased":true
+  },
+  {
+    "Number":"18",
+    "Name":"Rocky Balboa",
+    "Series":"Rocky",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"19",
+    "Name":"Skeletor",
+    "Series":"Masters of the universe",
+    "Type":"TV",
+    "Purchased":false
+  },
+  {
+    "Number":"19",
+    "Name":"Apollo Creed",
+    "Series":"Rocky",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"19",
+    "Name":"TuPac",
+    "Series":"Rocks",
+    "Type":"Music",
+    "Purchased":false
+  },
+  {
+    "Number":"20",
+    "Name":"Clubber Lang",
+    "Series":"Rocky",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"21",
+    "Name":"Ivan Drago",
+    "Series":"Rocky",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"22",
+    "Name":"Robocop",
+    "Series":"Robocop",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"22",
+    "Name":"MJ Billie Jean",
+    "Series":"Rocks",
+    "Type":"Music",
+    "Purchased":false
+  },
+  {
+    "Number":"23",
+    "Name":"MJ Beat It",
+    "Series":"Rocks",
+    "Type":"Music",
+    "Purchased":false
+  },
+  {
+    "Number":"27",
+    "Name":"John Lennon",
+    "Series":"Rocks",
+    "Type":"Music",
+    "Purchased":true
+  },
+  {
+    "Number":"28",
+    "Name":"Paul McCartney",
+    "Series":"Rocks",
+    "Type":"Music",
+    "Purchased":true
+  },
+  {
+    "Number":"29",
+    "Name":"George Harrison",
+    "Series":"Rocks",
+    "Type":"Music",
+    "Purchased":true
+  },
+  {
+    "Number":"30",
+    "Name":"Alien",
+    "Series":"Alien",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"30",
+    "Name":"Ringo Starr",
+    "Series":"Rocks",
+    "Type":"Music",
+    "Purchased":true
+  },
+  {
+    "Number":"32",
+    "Name":"Ace Ventura",
+    "Series":"Ace Ventura Pet Detective",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"35",
+    "Name":"Thor",
+    "Series":"Marvel",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"52",
+    "Name":"Jasmine",
+    "Series":"Disney",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"53",
+    "Name":"Jafar",
+    "Series":"Disney",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"53",
+    "Name":"Ash",
+    "Series":"Army of Darkness",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"54",
+    "Name":"Genie",
+    "Series":"Disney",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"59",
+    "Name":"Carl",
+    "Series":"Disney",
+    "Type":"Movie",
+    "Purchased":true
+  },
+  {
+    "Number":"60",
+    "Name":"Russell",
+    "Series":"Disney",
+    "Type":"Movie",
+    "Purchased":true
+  },
+  {
+    "Number":"60",
+    "Name":"Donatello",
+    "Series":"TMNT",
+    "Type":"TV",
+    "Purchased":false
+  },
+  {
+    "Number":"61",
+    "Name":"Raphael",
+    "Series":"TMNT",
+    "Type":"TV",
+    "Purchased":false
+  },
+  {
+    "Number":"61",
+    "Name":"Marty McFly",
+    "Series":"Back to the Future",
+    "Type":"Movie",
+    "Purchased":true
+  },
+  {
+    "Number":"61",
+    "Name":"Vincent Vega",
+    "Series":"Pulp Fiction",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"62",
+    "Name":"Michaelangelo",
+    "Series":"TMNT",
+    "Type":"TV",
+    "Purchased":false
+  },
+  {
+    "Number":"62",
+    "Name":"Dr. Emmet Brown",
+    "Series":"Back to the Future",
+    "Type":"Movie",
+    "Purchased":true
+  },
+  {
+    "Number":"62",
+    "Name":"Jules",
+    "Series":"Pulp Fiction",
+    "Type":"Movie",
+    "Purchased":true
+  },
+  {
+    "Number":"63",
+    "Name":"Leonardo",
+    "Series":"TMNT",
+    "Type":"TV",
+    "Purchased":false
+  },
+  {
+    "Number":"63",
+    "Name":"Mia Wallace",
+    "Series":"Pulp Fiction",
+    "Type":"Movie",
+    "Purchased":true
+  },
+  {
+    "Number":"64",
+    "Name":"Splinter",
+    "Series":"TMNT",
+    "Type":"TV",
+    "Purchased":false
+  },
+  {
+    "Number":"64",
+    "Name":"Jimmie",
+    "Series":"Pulp Fiction",
+    "Type":"Movie",
+    "Purchased":true
+  },
+  {
+    "Number":"65",
+    "Name":"Shredder",
+    "Series":"TMNT",
+    "Type":"TV",
+    "Purchased":false
+  },
+  {
+    "Number":"68",
+    "Name":"Beatrix Kiddo",
+    "Series":"Kill Bill",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"69",
+    "Name":"Bill",
+    "Series":"Kill Bill",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"70",
+    "Name":"O-Ren Ishi",
+    "Series":"Kill Bill",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"71",
+    "Name":"GoGo Yubari",
+    "Series":"Kill Bill",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"72",
+    "Name":"Crazy 88",
+    "Series":"Kill Bill",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"76",
+    "Name":"Sloth",
+    "Series":"The Goonies",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"77",
+    "Name":"Mikey",
+    "Series":"The Goonies",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"78",
+    "Name":"Mouth",
+    "Series":"The Goonies",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"79",
+    "Name":"Chunk",
+    "Series":"The Goonies",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"80",
+    "Name":"Data",
+    "Series":"The Goonies",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"102",
+    "Name":"Lion-O",
+    "Series":"Thundercats",
+    "Type":"TV",
+    "Purchased":false
+  },
+  {
+    "Number":"104",
+    "Name":"Dr. Peter Venkman",
+    "Series":"Ghostbusters",
+    "Type":"Movie",
+    "Purchased":true
+  },
+  {
+    "Number":"105",
+    "Name":"Dr. Raymond Stantz",
+    "Series":"Ghostbusters",
+    "Type":"Movie",
+    "Purchased":true
+  },
+  {
+    "Number":"106",
+    "Name":"Dr. Egon Spengler",
+    "Series":"Ghostbusters",
+    "Type":"Movie",
+    "Purchased":true
+  },
+  {
+    "Number":"108",
+    "Name":"Slimer",
+    "Series":"Ghostbusters",
+    "Type":"Movie",
+    "Purchased":true
+  },
+  {
+    "Number":"109",
+    "Name":"Stay Puft Marshmellow Man",
+    "Series":"Ghostbusters",
+    "Type":"Movie",
+    "Purchased":true
+  },
+  {
+    "Number":"113",
+    "Name":"Michael Bluth",
+    "Series":"Arrested Development",
+    "Type":"TV",
+    "Purchased":false
+  },
+  {
+    "Number":"114",
+    "Name":"Gob Bluth",
+    "Series":"Arrested Development",
+    "Type":"TV",
+    "Purchased":true
+  },
+  {
+    "Number":"115",
+    "Name":"Buster Bluth",
+    "Series":"Arrested Development",
+    "Type":"TV",
+    "Purchased":true
+  },
+  {
+    "Number":"116",
+    "Name":"Tobias Funke",
+    "Series":"Arrested Development",
+    "Type":"TV",
+    "Purchased":true
+  },
+  {
+    "Number":"117",
+    "Name":"George-Michael Bluth",
+    "Series":"Arrested Development",
+    "Type":"TV",
+    "Purchased":true
+  },
+  {
+    "Number":"119",
+    "Name":"George Bluth Snr",
+    "Series":"Arrested Development",
+    "Type":"TV",
+    "Purchased":true
+  },
+  {
+    "Number":"121",
+    "Name":"Buffy",
+    "Series":"Buffy the vampire slayer",
+    "Type":"TV",
+    "Purchased":false
+  },
+  {
+    "Number":"122",
+    "Name":"Willow",
+    "Series":"Buffy the vampire slayer",
+    "Type":"TV",
+    "Purchased":false
+  },
+  {
+    "Number":"123",
+    "Name":"Angel",
+    "Series":"Buffy the vampire slayer",
+    "Type":"TV",
+    "Purchased":false
+  },
+  {
+    "Number":"125",
+    "Name":"Vampire Spike",
+    "Series":"Buffy the vampire slayer",
+    "Type":"TV",
+    "Purchased":false
+  },
+  {
+    "Number":"134",
+    "Name":"Sharknado",
+    "Series":"Sharknado",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"140",
+    "Name":"April O'Neil",
+    "Series":"TMNT",
+    "Type":"TV",
+    "Purchased":false
+  },
+  {
+    "Number":"141",
+    "Name":"Foot Soldier",
+    "Series":"TMNT",
+    "Type":"TV",
+    "Purchased":false
+  },
+  {
+    "Number":"142",
+    "Name":"Bebop",
+    "Series":"TMNT",
+    "Type":"TV",
+    "Purchased":false
+  },
+  {
+    "Number":"143",
+    "Name":"Rocksteady",
+    "Series":"TMNT",
+    "Type":"TV",
+    "Purchased":false
+  },
+  {
+    "Number":"160",
+    "Name":"Walter White",
+    "Series":"Breaking Bad",
+    "Type":"TV",
+    "Purchased":false
+  },
+  {
+    "Number":"161",
+    "Name":"Jesse Pinkman",
+    "Series":"Breaking Bad",
+    "Type":"TV",
+    "Purchased":false
+  },
+  {
+    "Number":"162",
+    "Name":"Heisenberg",
+    "Series":"Breaking Bad",
+    "Type":"TV",
+    "Purchased":false
+  },
+  {
+    "Number":"163",
+    "Name":"Saul Goodman",
+    "Series":"Breaking Bad",
+    "Type":"TV",
+    "Purchased":false
+  }
+]

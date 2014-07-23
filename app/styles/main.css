@@ -434,9 +434,11 @@ th {
 }
 
 .pvc-list {
+  overflow: hidden;
   list-style: none;
   margin-left: 0;
   padding: 0;
+  text-align:center;
 }
 
   .pvc-list a {
@@ -444,6 +446,7 @@ th {
   }
 
   .pvc-list img {
+    width:100%;
     filter: grayscale(100%);
   }
   .pvc-list img:hover,
@@ -451,7 +454,7 @@ th {
       opacity: 0.75;
   }
 
-  .pvc-list img.purchased {
+  .pvc-list .purchased {
       filter: grayscale(0);
   }
 

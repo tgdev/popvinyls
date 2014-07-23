@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('popvinylApp', [])
+angular.module('popvinylApp', ['ngRoute'])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {

@@ -1,17 +1,35 @@
 'use strict';
 
-angular.module('popvinylApp').filter('MainService', function ($http) {
+angular.module('popvinylApp').service('MainService', function ($http, $q) {
 
-	this.getpopVinyls = function () {
+	function getPopVinyls() {
 
-		var obj = {content:null};
+		var req = $http.get('data/popvinyls.json');
 
-		$http.get('/data/pop-vinyl-list.json').success(function(data) {
-			obj.content = data;
-		});
+		return(req.then(handleSuccess, handleError));
+	}
 
-		return obj;
+	function handleSuccess(response) {
 
-	};
+        return(response.data);
+
+	}
+
+	function handleError(response) {
+
+        if (!angular.isObject(response.data) || !response.data.message) {
+
+            return($q.reject('An unknown error occurred.'));
+
+        }
+
+        // Otherwise, use expected error message.
+        return($q.reject(response.data.message));
+
+    }
+
+	return({
+		getPopVinyls: getPopVinyls
+	});
 
 });

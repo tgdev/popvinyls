@@ -1,49 +1,49 @@
 [
   {
-    "Number":"1",
+    "Number":"01",
     "Name":"Batmobile",
     "Series":"Rides",
     "Type":"Movie",
     "Purchased":false
   },
   {
-    "Number":"1",
-    "Name":"Purple Haze",
-    "Series":"Rocks",
-    "Type":"Music",
-    "Purchased":false
-  },
-  {
-    "Number":"2",
-    "Name":"DeLoreon Time machine",
+    "Number":"02",
+    "Name":"DeLoreon",
     "Series":"Rides",
     "Type":"Movie",
     "Purchased":false
   },
   {
-    "Number":"3",
-    "Name":"Tonys Convertable",
+    "Number":"03",
+    "Name":"Tonys Convertible",
     "Series":"Rides",
     "Type":"Movie",
     "Purchased":false
   },
   {
-    "Number":"4",
+    "Number":"04",
+    "Name":"Ecto-1",
+    "Series":"Rides",
+    "Type":"Movie",
+    "Purchased":false
+  },
+  {
+    "Number":"05",
     "Name":"Gizmo",
     "Series":"Gremlins",
     "Type":"Movie",
     "Purchased":false
   },
   {
-    "Number":"4",
-    "Name":"Etco-1",
-    "Series":"Rides",
-    "Type":"Movie",
+    "Number":"06",
+    "Name":"Purple Haze",
+    "Series":"Rocks",
+    "Type":"Music",
     "Purchased":false
   },
   {
     "Number":"10",
-    "Name":"Buddy the Elf",
+    "Name":"Buddy the elf",
     "Series":"Holidays",
     "Type":"Movie",
     "Purchased":false
@@ -246,7 +246,7 @@
   },
   {
     "Number":"62",
-    "Name":"Michaelangelo",
+    "Name":"Michelangelo",
     "Series":"TMNT",
     "Type":"TV",
     "Purchased":false
@@ -263,7 +263,7 @@
     "Name":"Jules",
     "Series":"Pulp Fiction",
     "Type":"Movie",
-    "Purchased":true
+    "Purchased":false
   },
   {
     "Number":"63",
@@ -277,7 +277,7 @@
     "Name":"Mia Wallace",
     "Series":"Pulp Fiction",
     "Type":"Movie",
-    "Purchased":true
+    "Purchased":false
   },
   {
     "Number":"64",
@@ -291,7 +291,7 @@
     "Name":"Jimmie",
     "Series":"Pulp Fiction",
     "Type":"Movie",
-    "Purchased":true
+    "Purchased":false
   },
   {
     "Number":"65",
@@ -407,7 +407,7 @@
   },
   {
     "Number":"109",
-    "Name":"Stay Puft Marshmellow Man",
+    "Name":"Stay Puft Marshmallow Man",
     "Series":"Ghostbusters",
     "Type":"Movie",
     "Purchased":true
@@ -457,13 +457,6 @@
   {
     "Number":"121",
     "Name":"Buffy",
-    "Series":"Buffy the vampire slayer",
-    "Type":"TV",
-    "Purchased":false
-  },
-  {
-    "Number":"122",
-    "Name":"Willow",
     "Series":"Buffy the vampire slayer",
     "Type":"TV",
     "Purchased":false

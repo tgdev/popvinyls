@@ -433,6 +433,26 @@ th {
   margin: 0 auto;
 }
 
+.row {
+  overflow: hidden;
+}
+
+.col-left {
+  float: left;
+  margin-right: 20px;
+}
+
+.col-right {
+  float: right;
+  margin-left: 20px;
+}
+
+.header {
+  padding: 40px 0;
+}
+
+.header h1 { margin: 0; }
+
 .pvc-list {
   overflow: hidden;
   list-style: none;

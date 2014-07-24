@@ -1,10 +1,52 @@
-<h1>Pop Vinly Collection</h1>
+<header class="header" role="banner">
+	<div class="row">
+		<div class="col col-left">
+			<h1>Pop Vinly Collection</h1>
+		</div>
+		<div class="col col-right">
+
+			<label for="q">Search by name:</label>
+			<input name="q" type="search" data-ng-model="query.Name" />
+
+		</div>
+	</div>
+</header>
+
 <hr />
-<p>Showing: <span data-ng-bind="filterType"></span> (<span data-ng-bind="totalCount"></span>) | Collected (<span data-ng-bind="purchasedCount"></span>)</p>
-<!-- Filters go here -->
+
+<div class="row">
+
+	<div class="col col-left">
+		<span>Showing: <span data-ng-bind="filterType"></span> (<span data-ng-bind="totalCount"></span>) | Collected (<span data-ng-bind="purchasedCount"></span>)</span>
+	</div>
+	<div class="col col-right">
+
+		<label for="filter">Filter by:</label>
+		<select name="filter" data-ng-model="query.filters">
+			<option value="">All</option>
+			<option value="Type">Type</option>
+			<option value="Purchased">Purchased</option>
+			<option value="!Purchased">Not Purchased</option>
+		</select>
+
+	</div>
+	<div class="col col-right">
+
+		<label for="sort">Sort by:</label>
+		<select name="sort" data-ng-model="sortExpression">
+			<option value="">-- Please select --</option>
+			<option value="Name">Name</option>
+			<option value="Number">Number</option>
+		</select>
+
+	</div>
+
+</div>
+
+<hr />
 
 <ul class="pvc-list">
-  <li data-ng-repeat="pvc in popVinyls | orderBy: 'Number'">
+  <li data-ng-repeat="pvc in popVinyls | orderBy: sortExpression | filter: query">
     <a href="/images/fullsize/{{pvc.Name | HyphenateString | FormatString | lowercase}}.jpg">
       <img data-ng-src="/images/thumbs/{{pvc.Name | HyphenateString | FormatString | lowercase}}-150x150.jpg" alt="{{pvc.Name}}" data-ng-class="{ purchased: pvc.Purchased }" />
       <p data-ng-bind="pvc.Name"></p>

@@ -1,35 +1,69 @@
 'use strict';
 
-angular.module('popvinylApp').service('MainService', function ($http, $q) {
+angular.module('popvinylApp')
+	.service('MainService', function ($http, $q) {
 
-	function getPopVinyls() {
+		function getPopVinyls() {
 
-		var req = $http.get('data/popvinyls.json');
+			var req = $http.get('data/popvinyls.json');
 
-		return(req.then(handleSuccess, handleError));
-	}
+			return(req.then(handleSuccess, handleError));
+		}
 
-	function handleSuccess(response) {
+		function handleSuccess(response) {
 
-        return(response.data);
+			return(response.data);
 
-	}
+		}
 
-	function handleError(response) {
+		function handleError(response) {
 
-        if (!angular.isObject(response.data) || !response.data.message) {
+			if (!angular.isObject(response.data) || !response.data.message) {
 
-            return($q.reject('An unknown error occurred.'));
+				return($q.reject('An unknown error occurred.'));
 
-        }
+			}
 
-        // Otherwise, use expected error message.
-        return($q.reject(response.data.message));
+			// Otherwise, use expected error message.
+			return($q.reject(response.data.message));
 
-    }
+		}
 
-	return({
-		getPopVinyls: getPopVinyls
+		return({
+			getPopVinyls: getPopVinyls
+		});
+
+	})
+	.service('filterService', function () {
+
+		var options = {};
+
+		options = [{
+			'name': 'TV',
+			'value': 'TV',
+			'group': 'Type',
+		},
+		{
+			'name': 'Movies',
+			'value': 'Movies',
+			'group': 'Type'
+		},
+		{
+			'name': 'Music',
+			'value': 'Music',
+			'group': 'Type'
+		},
+		{
+			'name': 'Purchased',
+			'value': 'Purcahsed',
+			'group': 'Status'
+		},
+		{
+			'name': 'Not Purchased',
+			'value': '!Purchased',
+			'group': 'Status'
+		}];
+
+		return options;
+
 	});
-
-});

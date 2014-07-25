@@ -1,33 +1,5 @@
 [
   {
-    "Number":"01",
-    "Name":"Batmobile",
-    "Series":"Rides",
-    "Type":"Movie",
-    "Purchased":false
-  },
-  {
-    "Number":"02",
-    "Name":"DeLoreon",
-    "Series":"Rides",
-    "Type":"Movie",
-    "Purchased":false
-  },
-  {
-    "Number":"03",
-    "Name":"Tonys Convertible",
-    "Series":"Rides",
-    "Type":"Movie",
-    "Purchased":false
-  },
-  {
-    "Number":"04",
-    "Name":"Ecto-1",
-    "Series":"Rides",
-    "Type":"Movie",
-    "Purchased":false
-  },
-  {
     "Number":"05",
     "Name":"Gizmo",
     "Series":"Gremlins",
@@ -417,7 +389,7 @@
     "Name":"Michael Bluth",
     "Series":"Arrested Development",
     "Type":"TV",
-    "Purchased":false
+    "Purchased":true
   },
   {
     "Number":"114",

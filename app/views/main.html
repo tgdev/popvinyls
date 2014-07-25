@@ -17,16 +17,16 @@
 <div class="row">
 
 	<div class="col col-left">
-		<span>Showing: <span data-ng-bind="filterType"></span> (<span data-ng-bind="filteredData.length"></span>) | Collected (<span data-ng-bind="purchasedCount"></span>)</span>
+		<span>Showing: <span data-ng-bind="ddFilter"></span> (<span data-ng-bind="filteredData.length"></span>) | Collected (<span data-ng-bind="purchasedCount"></span>)</span>
 	</div>
 	<div class="col col-right">
 
 		<label for="filter">Filter by:</label>
 		<select name="filter" data-ng-model="ddFilter">
 			<option value="">All</option>
-			<option value="Type">Type</option>
+			<!-- <option value="Type">Type</option> -->
 			<option value="Purchased">Purchased</option>
-			<option value="!Purchased">Not Purchased</option>
+			<!-- <option value="!Purchased">Not Purchased</option> -->
 		</select>
 
 	</div>
@@ -34,9 +34,8 @@
 
 		<label for="sort">Sort by:</label>
 		<select name="sort" data-ng-model="sortExpression">
-			<option value="">-- Please select --</option>
-			<option value="Name">Name</option>
 			<option value="Number">Number</option>
+			<option value="Name">Name</option>
 		</select>
 
 	</div>
@@ -46,10 +45,10 @@
 <hr />
 
 <ul class="pvc-list">
-  <li data-ng-repeat="pvc in filteredData = (popVinyls | filter: query) | orderBy: sortExpression">
-    <a href="/images/fullsize/{{pvc.Name | HyphenateString | FormatString | lowercase}}.jpg">
-      <img data-ng-src="/images/thumbs/{{pvc.Name | HyphenateString | FormatString | lowercase}}-150x150.jpg" alt="{{pvc.Name}}" data-ng-class="{ purchased: pvc.Purchased }" />
-      <p data-ng-bind="pvc.Name"></p>
-    </a>
+  <li data-ng-repeat="pvc in filteredData = (popVinyls | filter: query | filter: ddFilter) | orderBy: sortExpression">
+  	<a magnific-popup class="image-popup-vertical-fit" href="images/fullsize/{{pvc.Name | HyphenateString | FormatString | lowercase}}.jpg">
+		<img data-ng-src="images/thumbs/{{pvc.Name | HyphenateString | FormatString | lowercase}}-150x150.jpg" alt="{{pvc.Name}}" data-ng-class="{purchased: pvc.Purchased}" />
+		<p data-ng-bind="pvc.Name"></p>
+	</a>
   </li>
 </ul>

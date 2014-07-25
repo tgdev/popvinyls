@@ -3,15 +3,14 @@
 angular.module('popvinylApp').controller('MainCtrl', function ($scope, $http, MainService) {
 
 	$scope.popVinyls = [];
-	$scope.totalCount = 0;
 	$scope.purchasedCount = 0;
-	$scope.filterType = 'All';
+	$scope.sortExpression = '';
 
 	function applyRemoteData(items) {
 
 		$scope.popVinyls = items;
-		$scope.totalCount = items.length;
 		$scope.purchasedCount = getPurchasedCount(items);
+		$scope.sortExpression = 'Number';
 
 	}
 
@@ -39,6 +38,17 @@ angular.module('popvinylApp').controller('MainCtrl', function ($scope, $http, Ma
 
 		return count;
 	}
+
+	$scope.isPurchased = function(item) {
+
+		var klass = '';
+
+		if(item === 1) {
+			klass = 'purchased';
+		}
+
+		return klass;
+	};
 
 	loadRemoteData();
 

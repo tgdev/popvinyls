@@ -9,14 +9,14 @@
   {
     "Number":"06",
     "Name":"Purple Haze",
-    "Series":"Rocks",
+    "Series":"Jimi Hendrix",
     "Type":"Music",
     "Purchased":false
   },
   {
     "Number":"10",
     "Name":"Buddy the elf",
-    "Series":"Holidays",
+    "Series":"Elf",
     "Type":"Movie",
     "Purchased":false
   },
@@ -58,7 +58,7 @@
   {
     "Number":"19",
     "Name":"TuPac",
-    "Series":"Rocks",
+    "Series":"Rapper",
     "Type":"Music",
     "Purchased":false
   },
@@ -86,35 +86,35 @@
   {
     "Number":"22",
     "Name":"MJ Billie Jean",
-    "Series":"Rocks",
+    "Series":"Michael Jackson",
     "Type":"Music",
     "Purchased":false
   },
   {
     "Number":"23",
     "Name":"MJ Beat It",
-    "Series":"Rocks",
+    "Series":"Michael Jackson",
     "Type":"Music",
     "Purchased":false
   },
   {
     "Number":"27",
     "Name":"John Lennon",
-    "Series":"Rocks",
+    "Series":"The Beatles",
     "Type":"Music",
     "Purchased":true
   },
   {
     "Number":"28",
     "Name":"Paul McCartney",
-    "Series":"Rocks",
+    "Series":"The Beatles",
     "Type":"Music",
     "Purchased":true
   },
   {
     "Number":"29",
     "Name":"George Harrison",
-    "Series":"Rocks",
+    "Series":"The Beatles",
     "Type":"Music",
     "Purchased":true
   },
@@ -128,7 +128,7 @@
   {
     "Number":"30",
     "Name":"Ringo Starr",
-    "Series":"Rocks",
+    "Series":"The Beatles",
     "Type":"Music",
     "Purchased":true
   },
@@ -149,14 +149,14 @@
   {
     "Number":"52",
     "Name":"Jasmine",
-    "Series":"Disney",
+    "Series":"Aladdin",
     "Type":"Movie",
     "Purchased":false
   },
   {
     "Number":"53",
     "Name":"Jafar",
-    "Series":"Disney",
+    "Series":"Aladdin",
     "Type":"Movie",
     "Purchased":false
   },
@@ -170,21 +170,21 @@
   {
     "Number":"54",
     "Name":"Genie",
-    "Series":"Disney",
+    "Series":"Aladdin",
     "Type":"Movie",
     "Purchased":false
   },
   {
     "Number":"59",
     "Name":"Carl",
-    "Series":"Disney",
+    "Series":"Up",
     "Type":"Movie",
     "Purchased":true
   },
   {
     "Number":"60",
     "Name":"Russell",
-    "Series":"Disney",
+    "Series":"Up",
     "Type":"Movie",
     "Purchased":true
   },

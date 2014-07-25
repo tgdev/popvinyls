@@ -44,17 +44,6 @@ angular.module('popvinylApp').controller('MainCtrl', function ($scope, $http, Ma
 		return count;
 	}
 
-	$scope.isPurchased = function(item) {
-
-		var klass = '';
-
-		if(item === 1) {
-			klass = 'purchased';
-		}
-
-		return klass;
-	};
-
 	loadRemoteData();
 
 });

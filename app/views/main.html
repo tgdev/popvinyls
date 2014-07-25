@@ -50,7 +50,7 @@
 <ul class="pvc-list">
   <li data-ng-repeat="pvc in filteredData = (popVinyls | filter: query | filter: ddFilter) | orderBy: sortExpression">
   	<a magnific-popup class="image-popup-vertical-fit" href="images/fullsize/{{pvc.Name | HyphenateString | FormatString | lowercase}}.jpg">
-		<img data-ng-src="images/thumbs/{{pvc.Name | HyphenateString | FormatString | lowercase}}-150x150.jpg" alt="{{pvc.Name}}" data-ng-class="{purchased: pvc.Status === Purchased}" />
+		<img data-ng-src="images/thumbs/{{pvc.Name | HyphenateString | FormatString | lowercase}}-150x150.jpg" alt="{{pvc.Name}}" data-ng-class="{purchased: pvc.Purchased}" />
 		<p>
 			<span data-ng-bind="pvc.Name"></span><br/>
 			(<span data-ng-bind="pvc.Series"></span>)

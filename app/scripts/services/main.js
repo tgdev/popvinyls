@@ -33,37 +33,4 @@ angular.module('popvinylApp')
 			getPopVinyls: getPopVinyls
 		});
 
-	})
-	.service('filterService', function () {
-
-		var options = {};
-
-		options = [{
-			'name': 'TV',
-			'value': 'TV',
-			'group': 'Type',
-		},
-		{
-			'name': 'Movies',
-			'value': 'Movies',
-			'group': 'Type'
-		},
-		{
-			'name': 'Music',
-			'value': 'Music',
-			'group': 'Type'
-		},
-		{
-			'name': 'Purchased',
-			'value': 'Purcahsed',
-			'group': 'Status'
-		},
-		{
-			'name': 'Not Purchased',
-			'value': '!Purchased',
-			'group': 'Status'
-		}];
-
-		return options;
-
 	});

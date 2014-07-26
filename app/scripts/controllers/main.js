@@ -12,11 +12,6 @@ angular.module('popvinylApp').controller('MainCtrl', function ($scope, $http, Ma
 		$scope.purchasedCount = getPurchasedCount(items);
 		$scope.sortExpression = 'Number';
 
-		// convert number to float for proper sorting
-		angular.forEach($scope.popVinyls, function (pv) {
-		  pv.Number = parseFloat(pv.Number);
-		});
-
 	}
 
 	function loadRemoteData() {

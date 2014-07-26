@@ -1,0 +1,110 @@
+@import "plugins/normalize";
+@import "plugins/magnific-popup";
+@import "plugins/magnific-settings";
+// @import "../bower_components/animate-sass/animate";
+
+
+// Workaround for greyscale css in libsass
+// https://github.com/sass/libsass/issues/151
+// Thanks: kennethormandy
+@function grayscale($value) {
+  @return #{ "grayscale(" + $value + ")" };
+}
+
+// ==========================================================
+// Custom User Styles
+// ==========================================================
+.container {
+  width: 96%;
+  margin: 0 auto;
+}
+
+.row {
+  overflow: hidden;
+}
+
+.col-left {
+  float: left;
+  margin-right: 20px;
+}
+
+.col-right {
+  float: right;
+  margin-left: 20px;
+}
+
+.header {
+  padding: 40px 0;
+
+  h1 { margin: 0; }
+
+}
+
+.pvc-list {
+  overflow: hidden;
+  list-style: none;
+  margin-left: 0;
+  padding: 0;
+  text-align:center;
+
+  li {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: whitesmoke;
+  }
+
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+
+  img {
+    width:100%;
+    filter: grayscale(100%);
+
+    &:hover,
+    &:focus {
+      opacity: 0.75;
+  	}
+
+  }
+
+  .purchased {
+      filter: grayscale(0);
+  }
+
+}
+
+/* medium breakpoint */
+@media screen and (min-width: 24em) {
+
+  .container {
+    width: 88%;
+  }
+
+  .pvc-list  li {
+    float: left;
+    width: 24%; /* 3 cols */
+    margin-right: 20px;
+
+    &:nth-child(4n+4) {
+      margin-right: 0;
+    }
+
+  }
+
+}
+
+/* large breakpoint */
+@media screen and (min-width: 48em) {
+
+  .container {
+    width: 82%;
+  }
+
+  .pvc-list li {
+    width: 22%; /* 4 cols */
+    margin-right: 32px;
+  }
+
+}

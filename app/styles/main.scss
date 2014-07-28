@@ -1,14 +1,32 @@
 @import "plugins/normalize";
-@import "plugins/magnific-popup";
 @import "plugins/magnific-settings";
-// @import "../bower_components/animate-sass/animate";
+@import "plugins/magnific-popup";
 
-
-// Workaround for greyscale css in libsass
+// Workaround for greyscale css being read as Sass function in libSass
 // https://github.com/sass/libsass/issues/151
 // Thanks: kennethormandy
 @function grayscale($value) {
   @return #{ "grayscale(" + $value + ")" };
+}
+
+// cleafix hack silent class
+%cf {
+
+  &:before,
+  &:after {
+    content:"";
+    display:table;
+  }
+
+  &:after {
+    clear:both;
+  }
+}
+
+// apply a natural box layout model to all elements
+// http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+*, *:before, *:after {
+  box-sizing: border-box;
 }
 
 // ==========================================================
@@ -41,17 +59,12 @@
 }
 
 .pvc-list {
-  overflow: hidden;
   list-style: none;
   margin-left: 0;
   padding: 0;
   text-align:center;
-
-  li {
-    margin-bottom: 20px;
-    padding: 10px;
-    background-color: whitesmoke;
-  }
+  clear:both;
+  @extend %cf;
 
   a {
     text-decoration: none;
@@ -61,11 +74,12 @@
   img {
     width:100%;
     filter: grayscale(100%);
+    transition: opacity 0.2s ease-in;
 
     &:hover,
     &:focus {
       opacity: 0.75;
-  	}
+    }
 
   }
 
@@ -75,36 +89,55 @@
 
 }
 
+.pvc-list__item {
+  display: block;
+  float: left;
+  // margin: 0 0.8% 1%;
+  padding: 10px;
+
+  width: 50%; // 2 cols
+
+}
+
+.pvc-list__item-title {
+  margin:0;
+}
+
 /* medium breakpoint */
-@media screen and (min-width: 24em) {
+@media screen and (min-width: 768px) {
 
   .container {
-    width: 88%;
+    width: 750px;
   }
 
-  .pvc-list  li {
-    float: left;
-    width: 24%; /* 3 cols */
-    margin-right: 20px;
-
-    &:nth-child(4n+4) {
-      margin-right: 0;
-    }
-
+  .pvc-list__item {
+    width: 33.33333333%;
   }
 
 }
 
 /* large breakpoint */
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 992px) {
 
   .container {
-    width: 82%;
+    width: 970px;
   }
 
-  .pvc-list li {
-    width: 22%; /* 4 cols */
-    margin-right: 32px;
+  .pvc-list__item {
+    width: 25%; // 4 cols
+  }
+
+}
+
+// mega brakpoint
+@media screen and (min-width: 1200px) {
+
+  .container {
+    width: 1170px;
+  }
+
+  .pvc-list__item {
+    width: 20%; // 5 cols
   }
 
 }

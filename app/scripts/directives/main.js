@@ -12,7 +12,10 @@ angular.module('popvinylApp')
 					type: 'image',
 					closeOnContentClick: true,
 					image: {
-						verticalFit: false
+						verticalFit: true
+					},
+					zoom: {
+						enabled: true
 					}
 				});
 			}

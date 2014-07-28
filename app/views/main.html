@@ -27,8 +27,6 @@
 			<option value="TV">TV</option>
 			<option value="Movies">Movies</option>
 			<option value="Music">Music</option>
-			<!-- <option value="Purchased">Purchased</option>
-			<option value="Not Purchased">Not Purchased</option> -->
 		</select>
 
 	</div>
@@ -48,11 +46,11 @@
 <hr />
 
 <ul class="pvc-list">
-  <li data-ng-repeat="pvc in filteredData = (popVinyls | filter: query | filter: ddFilter) | orderBy: sortExpression">
+  <li data-ng-repeat="pvc in filteredData = (popVinyls | filter: query | filter: ddFilter) | orderBy: sortExpression" class="pvc-list__item">
   	<a magnific-popup class="image-popup-vertical-fit" href="images/fullsize/{{pvc.Name | HyphenateString | FormatString | lowercase}}.jpg">
 		<img data-ng-src="images/thumbs/{{pvc.Name | HyphenateString | FormatString | lowercase}}-200x200.jpg" alt="{{pvc.Name}}" data-ng-class="{purchased: pvc.Purchased}" />
-		<p>
-			<span data-ng-bind="pvc.Name"></span><br/>
+		<p class="pvc-list__item-title">
+			<strong data-ng-bind="pvc.Name"></strong><br/>
 			(<span data-ng-bind="pvc.Series"></span>)
 		</p>
 	</a>

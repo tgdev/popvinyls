@@ -17,12 +17,12 @@
 <div class="row">
 
 	<div class="col col-left">
-		<span>Showing: <span data-ng-bind="ddFilter"></span> (<span data-ng-bind="filteredData.length"></span>) | Collected (<span data-ng-bind="purchasedCount"></span>)</span>
+		<span>Showing: <span data-ng-bind="category"></span> (<span data-ng-bind="filteredData.length"></span>) | Collected (<span data-ng-bind="purchasedCount"></span>)</span>
 	</div>
 	<div class="col col-right">
 
 		<label for="filter">Filter by:</label>
-		<select name="filter" data-ng-model="ddFilter">
+		<select name="filter" data-ng-model="ddFilter" data-ng-change="updateCategory()">
 			<option value="">All</option>
 			<option value="TV">TV</option>
 			<option value="Movies">Movies</option>

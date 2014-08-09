@@ -5,6 +5,17 @@ angular.module('popvinylApp').controller('MainCtrl', function ($scope, $http, Ma
 	$scope.popVinyls = [];
 	$scope.purchasedCount = 0;
 	$scope.sortExpression = '';
+	$scope.category = 'All';
+
+	$scope.updateCategory = function () {
+
+		if($scope.ddFilter === '') {
+			$scope.category = 'All';
+		} else {
+			$scope.category = $scope.ddFilter;
+		}
+
+	};
 
 	function applyRemoteData(items) {
 

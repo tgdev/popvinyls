@@ -284,6 +284,22 @@ module.exports = function (grunt) {
       }
     },
 
+    // Push build files from dist folder to gh-pages branch on github
+    buildcontrol: {
+      options: {
+        dir: 'dist',
+        commit: true,
+        push: true,
+        message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
+      },
+      pages: {
+        options: {
+          remote: 'git://github.com/tgdev/popvinyls.git',
+          branch: 'gh-pages'
+        }
+      }
+    },
+
     // Run some tasks in parallel to speed up the build process
     concurrent: {
       dist: [
@@ -349,6 +365,11 @@ module.exports = function (grunt) {
     'rev',
     'usemin',
     'htmlmin'
+  ]);
+
+  grunt.registerTask('deploy', [
+    'build',
+    'buildcontrol:pages'
   ]);
 
   grunt.registerTask('default', [

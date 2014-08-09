@@ -265,10 +265,9 @@ module.exports = function (grunt) {
             '.htaccess',
             '*.html',
             'views/{,*/}*.html',
-            'bower_components/**/*',
+            // 'bower_components/**/*',
             'images/{,*/}*.{webp}',
             'fonts/*',
-            'js/plugins/*.js',
             'data/*.json'
           ]
         }, {
@@ -353,7 +352,6 @@ module.exports = function (grunt) {
 
   grunt.registerTask('build', [
     'clean:dist',
-    'bower-install',
     'useminPrepare',
     'concurrent:dist',
     'copy:styles',

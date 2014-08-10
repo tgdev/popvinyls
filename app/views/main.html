@@ -43,7 +43,7 @@
 
 </div>
 
-<ul class="pvc-list">
+<ul class="pvc-list animated">
   <li data-ng-repeat="pvc in filteredData = (popVinyls | filter: query | filter: ddFilter) | orderBy: sortExpression" class="pvc-list__item">
   	<a magnific-popup class="image-popup-vertical-fit" href="images/fullsize/{{pvc.Name | HyphenateString | FormatString | lowercase}}.jpg">
 	  	<figure>

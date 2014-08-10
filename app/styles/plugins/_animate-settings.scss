@@ -1,0 +1,20 @@
+/////////////////////////////////////////////////////////
+// Animation Default Settings                          //
+/////////////////////////////////////////////////////////
+
+
+// Base module settings
+$base-duration					: 1s;           // used in 1-base module
+$base-origin 					: top center;
+
+$base-timing-function-in		: ease-in;
+$base-timing-function-out		: ease-out;
+$base-timing-function-in-out	: ease-in-out;
+
+$base-distance					: 10px; 		// used in fade, shake and bounce modules
+$base-distance-big				: 1000px;       // used in fadeBig and bounce modules
+
+
+// Active Modules - Bounce Enter/Exit
+$use-bounceInUp			: 	true;
+$use-bounceOutDown 		: 	true;

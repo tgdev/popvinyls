@@ -599,6 +599,19 @@ img.mfp-img {
 *, *:before, *:after {
   box-sizing: border-box; }
 
+body {
+  background-color: #3399FF; }
+
+figure {
+  margin: 0; }
+
+@keyframes pop {
+  50% {
+    transform: scale(1.2); }
+
+  100% {
+    transform: scale(1); } }
+
 .container {
   width: 96%;
   margin: 0 auto; }
@@ -624,16 +637,15 @@ img.mfp-img {
   margin-left: 0;
   padding: 0;
   text-align: center;
+  text-transform: uppercase;
   clear: both; }
   .pvc-list a {
     text-decoration: none;
     color: #333; }
   .pvc-list img {
+    display: block;
     width: 100%;
-    filter: grayscale(100%);
-    transition: opacity 0.2s ease-in; }
-    .pvc-list img:hover, .pvc-list img:focus {
-      opacity: 0.75; }
+    filter: grayscale(100%); }
   .pvc-list .purchased {
     filter: grayscale(0); }
 
@@ -642,9 +654,53 @@ img.mfp-img {
   float: left;
   padding: 10px;
   width: 50%; }
+  .pvc-list__item figure {
+    transform: translateZ(0); }
+    .pvc-list__item figure:hover, .pvc-list__item figure:focus {
+      animation-name: pop;
+      animation-duration: 0.3s;
+      animation-timing-function: linear;
+      animation-iteration-count: 1; }
 
-.pvc-list__item-title {
-  margin: 0; }
+.pvc-list__item__title {
+  margin: 0;
+  padding: 10px 0;
+  color: rgba(255, 255, 255, 0.5); }
+  .pvc-list__item__title strong {
+    color: #FFF; }
+
+.pvc-list__item__subtitle {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+  .pvc-list__item__subtitle:before {
+    content: "("; }
+  .pvc-list__item__subtitle:after {
+    content: ")"; }
+
+.pvc-list__filters {
+  padding: 15px;
+  border: 4px solid #000;
+  background-color: white; }
+
+.pvc-list__filters__summary {
+  display: block;
+  margin: 10px 0;
+  text-transform: uppercase; }
+
+.pvc-list__filters__pill {
+  background-color: red;
+  border-radius: 20px;
+  padding: 10px 15px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px; }
+  .pvc-list__filters__pill select {
+    background-color: red;
+    border: none;
+    cursor: pointer; }
 
 /* medium breakpoint */
 @media screen and (min-width: 768px) {

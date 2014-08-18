@@ -214,7 +214,7 @@
     "Name":"Vincent Vega",
     "Series":"Pulp Fiction",
     "Type":"Movies",
-    "Purchased":false
+    "Purchased":true
   },
   {
     "Number":62,
@@ -235,7 +235,7 @@
     "Name":"Jules",
     "Series":"Pulp Fiction",
     "Type":"Movies",
-    "Purchased":false
+    "Purchased":true
   },
   {
     "Number":63,
@@ -428,10 +428,10 @@
   },
   {
     "Number":121,
-    "Name":"Buffy",
+    "Name":"Battle Buffy",
     "Series":"Buffy the vampire slayer",
     "Type":"TV",
-    "Purchased":false
+    "Purchased":true
   },
   {
     "Number":123,

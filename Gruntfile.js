@@ -287,13 +287,13 @@ module.exports = function (grunt) {
     buildcontrol: {
       options: {
         dir: 'dist',
-        commit: true,
         push: true,
         message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
       },
       pages: {
         options: {
           remote: 'https://github.com/tgdev/popvinyls.git',
+          branch: 'gh-pages',
           remoteBranch: 'gh-pages'
         }
       }

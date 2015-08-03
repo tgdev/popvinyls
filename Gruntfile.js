@@ -294,7 +294,7 @@ module.exports = function (grunt) {
       pages: {
         options: {
           remote: 'https://github.com/tgdev/popvinyls.git',
-          branch: 'gh-pages'
+          remoteBranch: 'gh-pages'
         }
       }
     },

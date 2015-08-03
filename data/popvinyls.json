@@ -277,35 +277,35 @@
     "Name":"Beatrix Kiddo",
     "Series":"Kill Bill",
     "Type":"Movies",
-    "Purchased":false
+    "Purchased":true
   },
   {
     "Number":69,
     "Name":"Bill",
     "Series":"Kill Bill",
     "Type":"Movies",
-    "Purchased":false
+    "Purchased":true
   },
   {
     "Number":70,
     "Name":"O-Ren Ishi",
     "Series":"Kill Bill",
     "Type":"Movies",
-    "Purchased":false
+    "Purchased":true
   },
   {
     "Number":71,
     "Name":"GoGo Yubari",
     "Series":"Kill Bill",
     "Type":"Movies",
-    "Purchased":false
+    "Purchased":true
   },
   {
     "Number":72,
     "Name":"Crazy 88",
     "Series":"Kill Bill",
     "Type":"Movies",
-    "Purchased":false
+    "Purchased":true
   },
   {
     "Number":76,
